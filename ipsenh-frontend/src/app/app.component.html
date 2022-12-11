@@ -1,0 +1,9 @@
+<h1>HTTP Versions demo</h1>
+<button (click)="getImagesWithHttp1()">Get images with HTTP1.1</button>
+<div *ngIf="showHttp1">
+  <app-http1></app-http1>
+</div>
+<button (click)="getImagesWithHttp2()">Get images with HTTP2.0</button>
+<div *ngIf="showHttp2">
+  <app-http2></app-http2>
+</div>

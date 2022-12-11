@@ -1,0 +1,7 @@
+<div style="display: flex; flex-direction: column">
+  <div id="row" *ngFor="let row of slicedArray" style="display: flex; flex-direction: row">
+    <div *ngFor="let column of row" style="height: 64px; width: 64px;">
+      <img width="64" height="64" src="http://localhost:3000/files/static/{{column}}" alt="">
+    </div>
+  </div>
+</div>
